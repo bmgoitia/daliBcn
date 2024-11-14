@@ -1,0 +1,70 @@
+
+
+:root {
+  --lv_blue: #001c4c;
+  --black: #292929;
+  --lightBlack: #585858;
+  
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  
+  /* overflow-x: hidden; */
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+
+div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+vertical-align: baseline;
+}
+
+
+
+
+
+
+
+/* FONTS */
+
+@font-face {
+  font-family: 'HBold';
+  src: url('https://static.lavanguardia.com/css/fonts/v2/TiemposHeadline-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'HSemibold';
+  src: url('https://lavanguardia-github.github.io/tipos/TiemposHeadline-Semibold.woff2') format('woff');
+}
+
+
+@font-face {
+  font-family: 'TRegular';
+  src: url('https://static.lavanguardia.com/css/fonts/v2/TiemposText-Regular.woff2') format('woff2');
+}
